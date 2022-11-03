@@ -1,0 +1,5 @@
+body { font: 12pt Arial;background-color: bisque; }
+h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}
+button { font-size: 12pt; padding: 30px; 
+    border-style: dotted ; border-bottom-left-radius:
+     15pt;caret-color: rgb(17, 16, 16); color: rgb(58, 56, 53);}
