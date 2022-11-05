@@ -1,23 +1,35 @@
-<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dados com JS</title>
-    <style>
-        body { font: 12pt Arial; }
-        button { font-size: 12pt; padding: 30px; color: rgb(230, 230, 233); background: rgb(33, 0, 39);}
-    </style>
-</head>
-<body>
-    <h1>Trabalhando com dados v1.0</h1>
-    <button onclick="inicio()">Clique para começar</button>
-    <script>
-        function inicio() {
-            let nome = window.prompt('Qual o seu nome?')
-            let nome2 = window.prompt('Qual seu filme favorito? ')
-            window.alert(`parabéns ${nome}! você tem um bom gosto! O  ${nome2} é um bom filme! `)
-        }
-    </script>
-</body>
-</htm
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalhando com dados v1.0</title>
+        <style>
+            body {font: 12pt Arial; 
+            background-color: bisque; 
+             box-shadow: 6pt; }
+        
+              button { font-size: 12pt;
+            padding: 30px; 
+            color: rgb(230, 230, 233); 
+            background: rgb(33, 0, 39);
+             border-radius: 5em;
+             border-left-color:aquamarine;
+             border-right-color: blue;
+             border-width: 6vh;
+            border-bottom-left-radius: 5mm;} }
+        </style>
+        
+    
+    </head>
+    <body>
+        <h1>O seu filme favorito!</h1>
+        <button onclick="inicio()">Clique para começar</button>
+        <script>
+            function inicio() {
+                let nome = window.prompt('Qual o seu nome?')
+                let nome2 = window.prompt('Qual seu filme favorito? ')
+                window.alert(`parabéns ${nome}! você tem um bom gosto! O  ${nome2} é um bom filme! `)
+            }
+        </script>
+    </body>
+</html>
