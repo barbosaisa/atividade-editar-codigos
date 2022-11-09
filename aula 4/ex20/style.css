@@ -1,5 +1,6 @@
 
 
-body { font: 12pt Arial; }
-h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}
-button { font-size: 12pt; padding: 30px; }
+body { font: 12pt Arial; background-color: rgb(224, 12, 12);}
+h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal; font-size: 2cm;}
+button { font-size: 12pt; padding: 30px; border-right-color:rgb(240, 240, 240) ; 
+    border-left-color: rgb(12, 11, 11); border-width: 10vh; border-bottom-width: 3vmax; }

@@ -9,3 +9,6 @@ function contagem() {
     }
     saida.innerHTML += ` &#x1F3C1;`
 }
+function zerar() {
+    location. reload();
+}

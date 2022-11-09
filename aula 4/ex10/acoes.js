@@ -17,6 +17,7 @@ function acao4() {
     resp.innerHTML += '<p>Clicou no quarto botão</p>'
 }
 
+
 function zerar() {
     location. reload();
 }

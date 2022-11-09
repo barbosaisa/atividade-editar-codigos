@@ -1,0 +1,5 @@
+body { font: 12pt Arial; background-color: rgba(235, 14, 117, 0.822);}
+h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal; font-size: 1,5cm;}
+button { font-size: 12pt; padding: 30px; border-right-color:rgb(250, 33, 141) ; 
+    border-left-color: rgba(238, 17, 238, 0.61); border-width: 50vh; 
+    border-bottom-width: 3vmax; border-radius: 10vw;}

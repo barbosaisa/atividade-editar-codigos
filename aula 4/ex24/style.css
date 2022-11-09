@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
-body { font: 12pt Arial; }
-h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}
-button { font-size: 12pt; padding: 30px; }
+body { font: 12pt Arial;background-color: bisque;}
+h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal; color: rgb(233, 94, 59);}
+button { font-size: 12pt; padding: 30px; border-style: dashed; border-color: rgb(1, 1, 12); 
+    background-color: rgb(211, 3, 3); border-radius: 20rem;}
