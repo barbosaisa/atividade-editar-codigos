@@ -1,17 +1,17 @@
-body { font: 12pt Arial;background-color: bisque; }
+body { font: 12pt Arial;background-color: bisque; } /* a cor do fundo foi mudada*/
 h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}
-button { font-size: 12pt; padding: 30px; ; }
+button { font-size: 12pt; padding: 30px;  }/* no botão eu almentei a fonte centralizar ,almentar */
 
 .animated-word {
-	font-family: Helvetic
+	font-family: Helvetic;
 	letter-spacing: 0.4em;
 	font-weight: 600;
 	font-size: 100px;
 	text-align: center;
 	color: #202125;
-  cursor: pointer;
-  max-width: 600px; 
-  width: 50%; 
+   cursor: pointer;
+   max-width: 600px; 
+   width: 50%; 
   
   
     

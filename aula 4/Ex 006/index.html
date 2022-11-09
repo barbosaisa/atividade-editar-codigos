@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Números com JS</title>
     <style>
-        body { font: 12pt Arial; background-color: aquamarine;}
-        button { font-size: 12pt; padding: 30px;color: brown; }
+        body { font: 12pt Arial; background-color: aquamarine;}/* mudei a cor do fundo */
+        button { font-size: 12pt; padding: 30px;color: brown; } /* a cor da fonte */
     </style>
 </head>
 <body>
@@ -14,6 +14,7 @@
     <button onclick="somar()">Iniciar a divisão</button>
     <section id="res">
         <p>O resultado vem aqui...</p>
+        <!-- mudei o titulo para divisao-->
     </section>
 
     <script>
@@ -25,7 +26,8 @@
 
             let res = document.querySelector('section#res')
             res.innerHTML = `<p>este numero <mark>${n1}</mark> dividido por <mark>${n2}</mark> é igual a <strong>${n1/n2}</strong>!</p>`
-        }
+        }// aqui eu alterei ao inves de somar agora ele ira dividir//
+
     </script>
 </body>
 </html>

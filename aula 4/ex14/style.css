@@ -1,4 +1,5 @@
 body { font: 12pt Arial; background-color: rgb(197, 116, 116);}
 h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal; background-color: bisque; font-style: unset;}
-button { font-size: 12pt; padding: 30px; color: white; background-color: black; border-radius: 10px; bord}
+button { font-size: 12pt; padding: 30px; color: white; background-color: black; border-radius: 10px; }
 p{ color:blue;}
+/* eu mudei a cor de fundo, dei uma borda para o texto, no botão mudei a cor,crie uma classe para mudar a cor do texto de dentro do botão*/

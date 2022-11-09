@@ -11,5 +11,8 @@ button {
     border-width: 50px;
     border-style: dotted;
     background-color: rgb(4, 90, 90);
+
+    /* aqui eu troquei a cor de fundo, a fonte, ajustei a posição da fonte, e cor no botão eu almentei
+     o tamanho da fonte, o preenchimento, deixei arrendodada, mudei a cor das bordas, e estilo*/
     
 }

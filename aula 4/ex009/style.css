@@ -1,5 +1,6 @@
 body { font: 12pt Arial; background-color: rgb(76, 201, 233) ;}
-h1, h2, h3 { font-family: 'fantasy', cursive; font-weight: center ;color: brown;}
+h1, h2, h3 { font-family: 'fantasy', cursive; font-weight: center ;color: brown;} 
+/* no botão eu mudei o tamanho, melhorei o preenchimento , deixei arrendodado, mudei a cor da barra*/
 button { 
     font-size: 15pt; 
     padding: 35px; 

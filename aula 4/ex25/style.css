@@ -3,5 +3,6 @@
 body { font: 12pt; font-family: Georgia; background-color: rgb(228, 132, 15); }
 h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}
 input[type=number] { font-size: 12pt; background-color: rgb(250, 248, 245); } 
-input[type=submit] { border-style:groove;  background-color: rgb(231, 231, 241); }
-   
+input[type=submit] { background-color: rgb(231, 231, 241); }
+   /*aqui eu mudei o tamanho da fonte, a familia da fonte, a cor de fundo,
+   no formulario eu troquei a cor de fundo*/

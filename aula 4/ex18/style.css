@@ -1,3 +1,4 @@
 body { font: 12pt Arial; color: rgb(11, 10, 12);background-color: beige;}
 h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal; font-weight: 900;}
 button { font-size: 12pt; padding: 30px; border-width: 5vmax; border-color: azure;}
+/* aqui eu troqueia cor de fundo, e no botão eu almentei o botão, e a cor da borda/*

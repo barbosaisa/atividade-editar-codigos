@@ -12,4 +12,5 @@ function gerar() {
 function limpar() { // Essa é a funcionalidade do outro botão, pra limpar tudo
     let res = document.querySelector('section#result')
     res.innerHTML = null // Vai esvaziar a section toda
+    /*aqui refere se ao botão de limpar*/
 }

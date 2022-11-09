@@ -4,11 +4,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Trabalhando com dados v1.0</title>
         <style>
+            /*aqui eu alterei o tamanho da fonte e a fonte*/
             body {font: 12pt Arial; 
+             /*aqui eu alterei a cor do fundo e coloquei a funçãode sombra*/
             background-color: bisque; 
              box-shadow: 6pt; }
-        
-              button { font-size: 12pt;
+            button { font-size: 12pt;   /*aqui no botão almentei o preenchimento mudei
+                 cor deixei arredondado, dei cor a borde direita; e dei cor a borda esquerda,
+                  almentei a borda;deixei a borda esquerda mais grossa*/
             padding: 30px; 
             color: rgb(230, 230, 233); 
             background: rgb(33, 0, 39);
@@ -16,19 +19,20 @@
              border-left-color:aquamarine;
              border-right-color: blue;
              border-width: 6vh;
-            border-bottom-left-radius: 5mm;} }
+            border-bottom-left-radius: 6mm;} }
         </style>
         
     
     </head>
     <body>
-        <h1>O seu filme favorito!</h1>
-        <button onclick="inicio()">Clique para começar</button>
+        <h1>O seu filme favorito!</h1>   
+        <button onclick="inicio()">Clique para começar</button> 
         <script>
             function inicio() {
                 let nome = window.prompt('Qual o seu nome?')
                 let nome2 = window.prompt('Qual seu filme favorito? ')
-                window.alert(`parabéns ${nome}! você tem um bom gosto! O  ${nome2} é um bom filme! `)
+                window.alert(`parabéns ${nome}! você tem um bom gosto! O  ${nome2} é um bom filme! `) 
+                // eu adicionei uma pergunta no pop-out, e mudei a frase final//
             }
         </script>
     </body>

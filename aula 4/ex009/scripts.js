@@ -9,5 +9,5 @@ function contar() {
 function contar() {
     contador -- // É a mesma coisa que contador = contador - 1
     res.innerHTML = `<p>O contador está com <mark>${contador}</mark> cliques.</p>`
-}
+} 
 

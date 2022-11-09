@@ -23,5 +23,5 @@ function jogar() {
     }
 }
     function zerar() {
-        location. reload();
+        location. reload(); /*botão de zerar*/
     }

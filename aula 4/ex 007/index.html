@@ -5,7 +5,7 @@
     <title>Números com JS</title>
     <style>
         body { font: 12pt Arial; }
-        button { font-size: 12pt; padding: 30px; background-color: blue;}
+        button { font-size: 12pt; padding: 30px; background-color: blue;} /*mudei a cor de fundo*/
     </style>
 </head>
 <body>
@@ -30,10 +30,12 @@
             res.innerHTML += `<p>A média final será <mark>${med}</mark>.</p>`
             if (med > 5) {
                 res.innerHTML += `<p> esse aluno foi aprovado <mark>${med}</mark>.</p>`
+                // aqui eu coloquei uma condição para saber se o aluno foi ou não aprovado//
+                //se a nota de x aluno for maior que 5 ele foi aprovado //
             }
             else{
                 res.innerHTML += `<p>esse aluno não foi aprovado <mark>${med}</mark>.</p>`
-            }
+            }//e se a nota do aluno for menor que 5 ele não foi aprovado//
         }
 
 
